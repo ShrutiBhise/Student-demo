@@ -14,8 +14,4 @@ class Student(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, nullable=False)
     age = Column(Integer)
-<<<<<<< HEAD
     course = Column(String)
-=======
-    course = Column(String)
->>>>>>> 76de304ae82f3cdb583a0ed45183cb1b7af4fe3d
